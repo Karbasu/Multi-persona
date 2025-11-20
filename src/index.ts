@@ -32,5 +32,19 @@ export {
   getBuiltinPersona
 } from './personas/builtin.js';
 
+// Frontend Orchestrator
+export { frontEndOrchestrator, FrontEndOrchestrator } from './frontend/orchestrator.js';
+
+// Frontend types
+export type {
+  UIReadyOutput,
+  PersonaVisual,
+  ModeratorVisual,
+  AnimationType,
+  PositionType,
+  EmotionTone,
+  ModeratorAnimationType
+} from './frontend/types.js';
+
 // For CLI usage
 import './cli.js';
